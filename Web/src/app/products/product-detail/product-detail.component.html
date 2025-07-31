@@ -1,0 +1,38 @@
+<div class="product-detail-container card p-4">
+  <h2 class="card-title text-center mb-4" *ngIf="!loading && product">Product Details</h2>
+  <div *ngIf="loading" class="text-center my-4">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading product details...</span>
+    </div>
+    <p>Loading product details...</p>
+  </div>
+  <div *ngIf="error" class="alert alert-danger">{{ error }}</div>
+
+  <div *ngIf="product && !loading">
+    <div class="row mb-2">
+      <div class="col-md-3"><strong>ID:</strong></div>
+      <div class="col-md-9">{{ product.id }}</div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-3"><strong>Name:</strong></div>
+      <div class="col-md-9">{{ product.name }}</div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-3"><strong>Description:</strong></div>
+      <div class="col-md-9">{{ product.description }}</div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-3"><strong>Price:</strong></div>
+      <div class="col-md-9">{{ product.price | currency:'USD':'symbol':'1.2-2' }}</div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-md-3"><strong>Created At:</strong></div>
+      <div class="col-md-9">{{ product.createdAt | date:'medium' }}</div>
+    </div>
+    <button class="btn btn-secondary" (click)="goBack()">Back to List</button>
+  </div>
+
+  <div *ngIf="!product && !loading && !error" class="alert alert-warning text-center">
+    Product not found.
+  </div>
+</div>

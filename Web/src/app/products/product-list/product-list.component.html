@@ -1,0 +1,58 @@
+<div class="product-list-container">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Product List</h2>
+    <button class="btn btn-primary" routerLink="/products/new">Add New Product</button>
+  </div>
+
+  <div class="mb-4">
+    <div class="input-group">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Search by name or description..."
+        [(ngModel)]="searchTerm"
+        (input)="filterProducts()"
+      />
+      <button class="btn btn-secondary" *ngIf="searchTerm" (click)="clearSearch()">
+        <i class="bi bi-x-lg"></i> Clear
+      </button>
+    </div>
+  </div>
+
+  <div *ngIf="loading" class="text-center my-4">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading products...</span>
+    </div>
+    <p>Loading products...</p>
+  </div>
+  <div *ngIf="error" class="alert alert-danger">{{ error }}</div>
+
+  <div class="table-responsive" *ngIf="filteredProducts.length > 0 && !loading">
+    <table class="table table-striped table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of filteredProducts">
+          <td>{{ product.id }}</td>
+          <td>{{ product.name }}</td>
+          <td>{{ product.price | currency:'USD':'symbol':'1.2-2' }}</td>
+          <td>
+            <button class="btn btn-info btn-sm me-2" (click)="viewProduct(product.id)">View</button>
+            <button class="btn btn-warning btn-sm me-2" (click)="editProduct(product.id)">Edit</button>
+            <button class="btn btn-danger btn-sm" (click)="deleteProduct(product.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div *ngIf="filteredProducts.length === 0 && !loading && !error" class="alert alert-info text-center">
+    No products found. Please add a new product or try a different search term.
+  </div>
+</div>

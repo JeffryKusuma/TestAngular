@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AXA\\BackendApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3255BB-2263-460F-86A8-5129094619CA}|APIFrontend\\APIFrontend.csproj|d:\\axa\\backendapi\\apifrontend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3255BB-2263-460F-86A8-5129094619CA}|APIFrontend\\APIFrontend.csproj|solutionrelative:apifrontend\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3255BB-2263-460F-86A8-5129094619CA}|APIFrontend\\APIFrontend.csproj|d:\\axa\\backendapi\\apifrontend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3255BB-2263-460F-86A8-5129094619CA}|APIFrontend\\APIFrontend.csproj|solutionrelative:apifrontend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3255BB-2263-460F-86A8-5129094619CA}|APIFrontend\\APIFrontend.csproj|d:\\axa\\backendapi\\apifrontend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3255BB-2263-460F-86A8-5129094619CA}|APIFrontend\\APIFrontend.csproj|solutionrelative:apifrontend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3255BB-2263-460F-86A8-5129094619CA}|APIFrontend\\APIFrontend.csproj|d:\\axa\\backendapi\\apifrontend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3255BB-2263-460F-86A8-5129094619CA}|APIFrontend\\APIFrontend.csproj|solutionrelative:apifrontend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3255BB-2263-460F-86A8-5129094619CA}|APIFrontend\\APIFrontend.csproj|d:\\axa\\backendapi\\apifrontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3255BB-2263-460F-86A8-5129094619CA}|APIFrontend\\APIFrontend.csproj|solutionrelative:apifrontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3255BB-2263-460F-86A8-5129094619CA}|APIFrontend\\APIFrontend.csproj|d:\\axa\\backendapi\\apifrontend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3255BB-2263-460F-86A8-5129094619CA}|APIFrontend\\APIFrontend.csproj|solutionrelative:apifrontend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AXA\\BackendApi\\APIFrontend\\Program.cs",
+              "RelativeDocumentMoniker": "APIFrontend\\Program.cs",
+              "ToolTip": "D:\\AXA\\BackendApi\\APIFrontend\\Program.cs",
+              "RelativeToolTip": "APIFrontend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T18:03:24.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\AXA\\BackendApi\\APIFrontend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "APIFrontend\\Models\\User.cs",
+              "ToolTip": "D:\\AXA\\BackendApi\\APIFrontend\\Models\\User.cs",
+              "RelativeToolTip": "APIFrontend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T18:02:28.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\AXA\\BackendApi\\APIFrontend\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "APIFrontend\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\AXA\\BackendApi\\APIFrontend\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "APIFrontend\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAxwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T18:01:39.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\AXA\\BackendApi\\APIFrontend\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "APIFrontend\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\AXA\\BackendApi\\APIFrontend\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "APIFrontend\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAwGkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T17:59:47.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\AXA\\BackendApi\\APIFrontend\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "APIFrontend\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\AXA\\BackendApi\\APIFrontend\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "APIFrontend\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T17:34:54.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\AXA\\BackendApi\\APIFrontend\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "APIFrontend\\Services\\AuthService.cs",
+              "ToolTip": "D:\\AXA\\BackendApi\\APIFrontend\\Services\\AuthService.cs",
+              "RelativeToolTip": "APIFrontend\\Services\\AuthService.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T18:02:55.544Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
